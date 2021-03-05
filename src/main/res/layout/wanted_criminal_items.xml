@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Id:"
+        android:textColor="#252525"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/Detective"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detective:"
+        android:textColor="#252525"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/create_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create date:"
+        android:textColor="#252525"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/criminal_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

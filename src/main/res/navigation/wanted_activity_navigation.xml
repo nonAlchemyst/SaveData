@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wanted_activity_navigation"
+    app:startDestination="@id/criminal_case_fragment">
+
+    <fragment
+        android:id="@+id/criminal_case_fragment"
+        android:name="com.example.savedata.criminal_case_fragment"
+        android:label="fragment_criminal_case_fragment"
+        tools:layout="@layout/fragment_criminal_case_fragment" />
+    <fragment
+        android:id="@+id/fragment_evidence"
+        android:name="com.example.savedata.Fragment_evidence"
+        android:label="fragment_evidence"
+        tools:layout="@layout/fragment_evidence" />
+</navigation>
